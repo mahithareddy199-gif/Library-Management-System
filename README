@@ -1,0 +1,193 @@
+# 📚 Library Management System
+
+A **console-based Library Management System** developed using **Python and Object-Oriented Programming (OOP)** concepts.
+
+This project allows users to manage books and library users through a simple menu-driven interface.
+
+## 🚀 Features
+
+### 📖 Book Management
+
+* Add new books
+* Display all available books
+* Search for a book using Book ID
+* Remove books
+* Issue books
+* Return books
+* Track book quantity
+
+### 👤 User Management
+
+* Add new users
+* Display all registered users
+* Update user phone number
+
+### 🖥️ Menu-Driven Interface
+
+The application provides the following options:
+
+```text
+===== LIBRARY MANAGEMENT SYSTEM =====
+
+1. Add Book
+2. Display Books
+3. Search Book
+4. Remove Book
+5. Add User
+6. Display Users
+7. Issue Book
+8. Return Book
+9. Exit
+```
+
+## 🛠️ Technologies Used
+
+* **Python 3**
+* **Object-Oriented Programming (OOP)**
+* Python Lists
+* Python Modules and Imports
+* Console/CLI
+
+## 🧠 OOP Concepts Used
+
+This project demonstrates the following OOP concepts:
+
+* Classes and Objects
+* Constructors (`__init__`)
+* Instance Variables
+* Instance Methods
+* `self` keyword
+* Object interaction
+* Lists of Objects
+* Basic encapsulation
+* Modular programming
+
+## 📂 Project Structure
+
+```text
+Library-Management-System/
+│
+├── book.py
+├── user.py
+├── library.py
+├── main.py
+└── README.md
+```
+
+### `book.py`
+
+Contains the `Book` class and book-related operations such as:
+
+* Display book details
+* Issue a book
+* Return a book
+
+### `user.py`
+
+Contains the `User` class and user-related operations such as:
+
+* Display user details
+* Update phone number
+
+### `library.py`
+
+Contains the `Library` class, which manages:
+
+* Books
+* Users
+* Adding books
+* Searching books
+* Removing books
+* Displaying books
+* Adding users
+* Displaying users
+* Issuing books
+* Returning books
+
+### `main.py`
+
+Contains the main menu-driven program and handles user input.
+
+## ⚙️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone <your-github-repository-url>
+```
+
+### 2. Open the project folder
+
+```bash
+cd Library-Management-System
+```
+
+### 3. Run the program
+
+```bash
+python main.py
+```
+
+## 💻 Example
+
+### Adding a Book
+
+```text
+Enter your choice: 1
+
+Enter Book ID: 102
+Enter Title: Python
+Enter Author: Guido
+Enter Category: Programming
+Enter Quantity: 10
+
+Book added successfully!
+```
+
+### Issuing a Book
+
+```text
+Enter your choice: 7
+
+Enter Book ID to issue: 102
+
+Book issued successfully!
+```
+
+### Returning a Book
+
+```text
+Enter your choice: 8
+
+Enter Book ID to return: 102
+
+Book returned successfully!
+```
+
+## 🎯 Project Objective
+
+The main objective of this project is to understand and implement **Object-Oriented Programming in Python** by building a practical application.
+
+The project helped in understanding how multiple classes can work together to create a complete software application.
+
+## 📌 Future Improvements
+
+The current version is a basic console-based application. It can be enhanced with:
+
+* 🔹 JSON/File handling for permanent data storage
+* 🔹 Exception handling and input validation
+* 🔹 SQLite/MySQL database integration
+* 🔹 Login and authentication
+* 🔹 Due-date and fine calculation
+* 🔹 GUI using Tkinter
+* 🔹 Web version using Flask or Django
+
+## 👩‍💻 Author
+
+**Mahitha Reddy**
+
+Computer Science Engineering Student
+
+---
+
+⭐ If you found this project useful, feel free to star the repository!
